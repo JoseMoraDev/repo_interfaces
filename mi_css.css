@@ -1,0 +1,471 @@
+/* imágenes que tengan el alt */
+
+/* corte en 320 px */
+
+/*! ****************************************** ETIQUETAS HTML **********************************************/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #888;
+    padding: 15px;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+}
+
+header i {
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #222;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h2 {
+    /*font-size: 40px;*/
+    font-size: 13px;
+    font-weight: 900;
+    color: #222;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+i {
+    color: #222;
+}
+
+img {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+picture img {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+p {
+    display: inline;
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+picture {
+    display: inline;
+}
+
+
+
+/** ****************************************** IDENTIFICADORES  **********************************************/
+
+#barra_busqueda {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#barras {
+    position: absolute;
+    right: 0;
+}
+
+#social {
+    display: inline;
+}
+
+
+
+/*? *********************************************** CLASES  ****************************************************/
+
+.author picture img {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.author p {
+    margin-left: 5px;
+}
+
+.author p+p {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria {
+    color: #222;
+    font-weight: bold;
+    display: inline;
+    font-size: 12px;
+}
+
+.cuadro_suscrip {
+    width: 97%;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    align-self: center;
+    padding-top: 55px;
+    text-align: center;
+}
+
+.footer p:first-of-type {
+    display: block;
+    margin-top: 30px;
+    font-size: 10.5px;
+    margin-bottom: 0px;
+}
+
+.footer p:last-of-type {
+    display: block;
+    margin-top: 15px;
+    font-size: 10.5px;
+}
+
+.icono_sombreado {
+    display: inline-flex;
+    background-color: #888;
+    padding: 10px;
+    border-radius: 12px;
+    width: 15px;
+    justify-content: center;
+}
+
+.nombre {
+    font-weight: bold;
+    color: #222;
+    /*display: inline;*/
+}
+
+.post {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.search {
+    border-radius: 25px;
+    background: url(/img1/mini_lupa.jpg) transparent no-repeat;
+    background-size: 15px;
+    background-position: 3% 50%;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #222;
+    padding: 7px;
+
+}
+
+.seccion_suscripcion {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.seccion_suscripcion .boton_suscrip {
+    display: block;
+    color: white;
+    background-color: rgb(215, 142, 4);
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 8px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.suscripcion {
+    font-size: 15px;
+    font-weight: 700;
+    color: #222;
+
+}
+
+.trending {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.zona_suscrip {
+    display: block;
+}
+
+@media (min-width: 600px) {
+
+    body {
+        font-size: 25px;
+    }
+
+    img {
+        width: 20%;
+    }
+
+}
+
+@media (min-width: 600px) {
+
+    /*cabecera*/
+
+    header{
+        display: flex;
+        align-self: end;
+    }
+
+    #social{
+        display: flex 
+    }
+
+    i.fa-brands.fa-facebook-f::before{
+        width: 1px; 
+        height: 1px;
+    }
+
+    body{
+        width: 1000px;
+        margin-left: 150px;
+    }
+
+    .seccion {
+        display: flex;
+    }
+
+    .art_dest_1 img{
+        margin-right: 25px;
+        padding-right: 25px;
+        border-radius: 10px;
+    }
+
+    img:first-of-type {
+        width: 300px;
+        height: 300px;
+    }
+
+    h2:first-of-type {
+        font-size: 26px;
+    }
+
+
+    picture>img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .author img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    article.articulo_destacado{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    p{
+        display: inline-flex;
+    }
+
+    picture img{
+        margin: 0px;
+    }
+
+    p.nombre, p.posicion{
+        margin: 0px;
+    }
+
+    section.author section{
+        display: flex;
+        flex-direction: column;
+        align-self: baseline;
+        padding-left: 5px;
+    }
+
+    .tresxdos, .tresxdos2{
+        display: flex;
+        width: 100px;
+        
+    }
+
+    article.articulo{
+        display: flex;
+        flex-direction: column;
+        width: 33;
+        padding-right: 25px;
+        padding-top: 25px;
+        flex-wrap: nowrap;
+    }
+
+    .tresxdos .seccion .articulo picture img{
+        width: 300px;
+        height: 220px;
+    }
+
+    .tresxdos .seccion .articulo .author picture:first-child img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .articulo h2{
+        font-size: 13px;
+        margin: 0px;
+    }
+
+    section{
+        display: flow-root;
+        flex-wrap: wrap;
+    }
+
+    .trending{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-weight: 900;
+    }
+
+    section.seccion_destacado:nth-child(2) .articulo_destacado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+    section.seccion_destacado .art_dest_1 picture img{
+        width: 320px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    section.seccion_destacado img{
+        width: 580px;
+        height: 400px;
+        border-radius: 10px;
+    }
+
+    section.seccion_destacado p.categoria{
+        font-size: 10px;
+    }
+
+    section.seccion_destacado p{
+        margin: 0px;
+    }
+
+    section.seccion_destacado h2.trending{
+        font-size: 27px;
+        margin-top: 13px;
+        justify-self: center;
+    }
+
+    section.seccion_destacado h2{
+        font-size: 13px;
+        margin: 0px;
+    }
+
+    section.seccion_destacado .author img{
+        width: 30px;
+        height: 30px;
+    }
+
+    section.seccion_destacado .author{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    section.seccion_suscripcion{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    section.seccion_suscripcion p{
+        font-size: 18px;
+    }
+
+    .seccion_suscripcion .boton_suscrip {
+        display: inline-flex;
+        width: 29%;
+    }
+
+    section.seccion_suscripcion p.suscripcion{
+        margin-bottom: 0px;
+        display: block;
+    }
+
+    input.cuadro_suscrip{
+        display: inline-flex;
+        margin-top: 0px;
+        width: 60%;
+    }
+
+    input.boton_suscrip{
+        justify-content: center;
+    }
+
+    [class^='fa-brands']{
+        font-size: 10px;
+    }
+
+    .footer p:first-of-type{
+        display: flex;
+        justify-content: center;
+    }
+
+    i.fa-solid.fa-heart::before{
+        font-size: 13px;
+        
+    }
+
+    header{
+        justify-content:space-between;
+        align-items: center;
+    }
+
+    input.search{
+        width: 215px;
+        order: 1;
+        margin: 0px;
+    }
+
+    header h1{
+        order: 2;
+        margin-right: 150px;
+    }
+
+    header #social{
+        order: 3;
+        width: 80px;
+        justify-content: space-around;
+    }
+
+    .art_dest_2 section h2{
+        font-size: 30px;
+        font-weight: 700px;
+    }
+
+
+
+
+}
